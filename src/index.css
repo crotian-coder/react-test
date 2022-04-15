@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* .lazy-load-image-background {
+  display: block !important;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+.dark {
+  background-color: #1d1d1d;
+  color: #fff;
+}
